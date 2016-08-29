@@ -1,0 +1,10 @@
+{
+  "name": "npm-install-security-check",
+  "version": "1.0.0",
+  "description": "Warn users when they are running scripts on npm install",
+  "scripts": {
+    "preinstall": "bash install-warning.sh"
+  },
+  "author": "Matthew Dahl (https://github.com/sandersky)",
+  "license": "MIT"
+}
